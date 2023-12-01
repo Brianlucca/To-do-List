@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/assents/css/reset.css">
+    <link rel="stylesheet" href="./src/assents/css/header.css">
+    <link rel="stylesheet" href="./src/assents/css/section.css">
+    <title>Todo-List | Projeto</title>
+    <link rel="icon" href="./src/assents/images/avaliacao.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href=""><img src="./src/assents/images/github.png"></a></li>
+                <li><a href=""><img src="./src/assents/images/linkedin.png"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Todo-List</h2>
+        </section>
+        <section>
+            <div id="CreatList">
+                <form id="todoForm">
+                    <div class="TitleList">
+                        <p for="titleTodo">Titulo</p>
+                        <input type="text" id="titleTodo" name="titleTodo" placeholder="Titulo Da Lista" required>
+                    </div>
+                    <div class="ListSubmit">
+                        <p for="List">Digite sua Lista</p>
+                        <textarea id="List" name="List" rows="4" cols="33" maxlength="150" minlength="3" required></textarea>
+                        <p id="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div id="resultado"></div>
+        </section>        
+    </main>
+    <script src="./src/assents/js/index.js"></script>         
+</body>
+</html>

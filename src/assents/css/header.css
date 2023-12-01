@@ -1,0 +1,13 @@
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1.5rem;
+  margin-top: 0.5rem;
+}
+nav li {
+  margin-left: 1rem;
+  list-style: none;
+}
+nav img {
+  width: 2rem;
+}

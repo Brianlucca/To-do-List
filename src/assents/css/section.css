@@ -1,0 +1,36 @@
+#CreatList {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 0.1rem;
+    border-radius: 0.4rem;
+    padding: 3rem;
+}
+.TitleList {
+    border: solid 1px;
+    border-radius: 0.4rem;
+    height: 6rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+.TitleList input {
+    border-radius: 0.2rem;
+    width: 20rem;
+    height: 2rem;
+    text-align: center;
+}
+.ListSubmit {
+    margin-top: 3rem;
+    text-align: center;
+}
+.ListSubmit textarea {
+    width: 25rem;
+    height: 5rem;
+    resize: none;
+}
+#submit {
+    margin-top: 1rem;
+    border: solid 0.1rem;
+    cursor: pointer;
+}
