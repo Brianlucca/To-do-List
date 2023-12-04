@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,8 +14,8 @@
     <header>
         <nav>
             <ul>
-                <li><a href=""><img src="./src/assents/images/github.png"></a></li>
-                <li><a href=""><img src="./src/assents/images/linkedin.png"></a></li>
+                <li><a href="#"><img src="./src/assents/images/github.png"></a></li>
+                <li><a href="#"><img src="./src/assents/images/linkedin.png"></a></li>
             </ul>
         </nav>
     </header>
@@ -24,25 +23,29 @@
         <section>
             <div id="CreatList">
                 <div class="ListSubmit">
-                    <p for="List">Digite sua Lista</p>
-                    <input id="list-to-do" name="List" rows="4" cols="33" maxlength="150" minlength="3"
-                        required></input>
+                    <p>Digite sua Lista</p>
+                    <input id="list-to-do" name="List" rows="4" cols="33" maxlength="65" minlength="3"required></input>
                     <button id="submit-list"><i class="fa fa-plus"></i></button>
                 </div>
             </div>
-            <ul id="resultado">
-                <li>
-                    <span class="text-list">Tarefa 1</span>
-                    <div>
-                        <button class="btnAcao">
-                            <i class="fa fa-pencil"></i>
-                        </button>
-                        <button class="btnAcao">
-                            <i class="fa fa-trash"></i>
-                        </button>
+            <ul id="resultado"></ul>
+        </section>
+        <section>
+            <div id="edit_input_to_do">
+                <button id="edit_Fechar"><i class="fa fa-remove"></i></button>
+                <h2>#3000</h2>
+                <hr>
+                <form>
+                    <div class="edit_form">
+                        <label for="edit_input">Nome</laber>
+                        <input type="text" class="type" id="edit_input">
                     </div>
-                </li>
-            </ul>
+                    <div class="edit_salveBtn">
+                        <button id="btn_Edit">Salvar</button>
+                    </div>
+                </form>
+            </div>
+            <div id="edit_list_back"></div>
         </section>
     </main>
     <script src="./src/assents/js/index.js"></script>

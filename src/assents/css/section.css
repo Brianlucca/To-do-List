@@ -1,6 +1,7 @@
 body {
     background-color: #6A5ACD;
     color: #FFF;
+    margin: 0;
 }
 #CreatList {
     border-radius: 1.2rem;
@@ -45,9 +46,66 @@ body {
 }
 
 #resultado li {
+    width: 80%; 
+    max-width: 24.8rem;
     margin: 1rem;
     border-radius: 0.4rem;
     height: 3rem;
     width: 24.8rem;
     background-color: #836FFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.9rem;
+    align-items: center;
+}
+.btnAcao {
+    cursor: pointer;
+    border-radius: 20rem;
+    border: none;
+    outline: none;
+    margin: 0.2rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: #483D8B;
+    color: white;
+}
+
+#edit_input_to_do {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    padding: 2rem;
+    background-color: #836FFF;
+    border: none;
+    width: 30rem;
+    border-radius: 1rem;
+    z-index: 200;
+}
+#edit_Fechar {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: #483D8B;
+    color: white;
+}
+#edit_input_to_do.abrir {
+
+}
+#edit_list_back {
+    position: fixed;
+    top: 0;
+    background-color: #483D8B;
+    bottom: 0;
+    left: 0;
+    opacity: 0.9;
+    z-index: 100;
+    right: 0;
+    /* display: none; */
+}
+#edit_list_back.abrir{
+    display: block !important;
 }
