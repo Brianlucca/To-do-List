@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="./src/assents/css/section.css">
     <title>Todo-List | Projeto</title>
     <link rel="icon" href="./src/assents/images/avaliacao.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -20,27 +22,30 @@
     </header>
     <main>
         <section>
-            <h2>Todo-List</h2>
-        </section>
-        <section>
             <div id="CreatList">
-                <form id="todoForm">
-                    <div class="TitleList">
-                        <p for="titleTodo">Titulo</p>
-                        <input type="text" id="title-Todo" name="titleTodo" placeholder="Titulo da Lista" required>
-                    </div>
-                    <div class="ListSubmit">
-                        <p for="List">Digite sua Lista</p>
-                        <textarea id="list-to-do" name="List" rows="4" cols="33" maxlength="150" minlength="3" required></textarea>
-                        <p id="submit">Enviar</button>
-                        <p id="remove-storage">Remover</button>
-                        <p id="limpa-storage">Limpa </button>
-                    </div>
-                </form>
+                <div class="ListSubmit">
+                    <p for="List">Digite sua Lista</p>
+                    <input id="list-to-do" name="List" rows="4" cols="33" maxlength="150" minlength="3"
+                        required></input>
+                    <button id="submit-list"><i class="fa fa-plus"></i></button>
+                </div>
             </div>
-            <div id="resultado"></div>
-        </section>        
+            <ul id="resultado">
+                <li>
+                    <span class="text-list">Tarefa 1</span>
+                    <div>
+                        <button class="btnAcao">
+                            <i class="fa fa-pencil"></i>
+                        </button>
+                        <button class="btnAcao">
+                            <i class="fa fa-trash"></i>
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </section>
     </main>
-    <script src="./src/assents/js/index.js"></script>         
+    <script src="./src/assents/js/index.js"></script>
 </body>
+
 </html>

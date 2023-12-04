@@ -1,46 +1,53 @@
+body {
+    background-color: #6A5ACD;
+    color: #FFF;
+}
 #CreatList {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-top: 0.1rem;
-    border-radius: 0.4rem;
+    border-radius: 1.2rem;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 25rem;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
     padding: 3rem;
+    background-color: #836FFF;
 }
-.TitleList {
-    border: solid 1px;
+
+.ListSubmit p {
+    text-align: center;
+}
+
+.ListSubmit input {
+    border-radius: 0.1rem;
+    margin-left: 1.5rem;
+    width: 16rem;
+    height: 1.2rem;
+    outline: none;
+    border: none;
+    padding: 0.1rem;
+}
+
+.ListSubmit button {
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 0.1rem;
+    outline: none;
+    border: none;
+    background-color: #483D8B;
+    color: white;
+}
+
+#resultado {
+    margin-top: -3rem;
+    margin-left: 27.6rem;
+    list-style: none;
+    text-align: center;
+}
+
+#resultado li {
+    margin: 1rem;
     border-radius: 0.4rem;
-    height: 6rem;
-    padding: 1rem;
-    margin-top: 1rem;
-    text-align: center;
-}
-.TitleList input {
-    border-radius: 0.2rem;
-    width: 20rem;
-    height: 2rem;
-    text-align: center;
-}
-.ListSubmit {
-    margin-top: 3rem;
-    text-align: center;
-}
-.ListSubmit textarea {
-    width: 25rem;
-    height: 5rem;
-    resize: none;
-}
-#submit {
-    margin-top: 1rem;
-    border: solid 0.1rem;
-    cursor: pointer;
-}
-#remove-storage {
-    margin-top: 1rem;
-    border: solid 0.1rem;
-    cursor: pointer;
-}
-#limpa-storage {
-    margin-top: 1rem;
-    border: solid 0.1rem;
-    cursor: pointer;
+    height: 3rem;
+    width: 24.8rem;
+    background-color: #836FFF;
 }
