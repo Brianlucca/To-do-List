@@ -26,6 +26,8 @@ body {
   outline: none;
   border: none;
   padding: 0.1rem;
+  background-color: #483d8b;
+  color: white;
 }
 
 .ListSubmit button {
@@ -72,7 +74,11 @@ body {
   background-color: #483d8b;
   color: white;
 }
-
+.text-list {
+  overflow: hidden;
+  text-overflow:inherit;
+  white-space: nowrap;
+}
 #edit_input_to_do {
   position: fixed;
   top: 50%;

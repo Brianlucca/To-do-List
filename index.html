@@ -25,7 +25,7 @@
             <div id="CreatList">
                 <div class="ListSubmit">
                     <p>Digite sua Lista</p>
-                    <input id="list-to-do" name="List" rows="4" cols="33" maxlength="65" minlength="3"required></input>
+                    <input id="list-to-do" name="List" rows="4" cols="33" maxlength="40" minlength="3"  required></input>
                     <button id="submit-list"><i class="fa fa-plus"></i></button>
                 </div>
             </div>
@@ -34,14 +34,14 @@
         <section>
             <div id="edit_input_to_do">
                 <button id="edit_Fechar"><i class="fa fa-remove"></i></button>
-                <h2>#3000</h2>
+                <h2 id="idEdicao"></h2>
                 <hr>
                 <form>
                     <div class="edit_form">
                         <label for="edit_input">Editar Lista</label>
                         <input type="text" class="type" id="edit_input" rows="4" cols="33" maxlength="65" minlength="3" required>
                     </div>
-                    <div class="edit_salveBtn">
+                    <div class="btn_Edit">
                         <button id="btn_Edit">
                             <i class="fa fa-plus"></i>
                         </button>
@@ -51,7 +51,7 @@
             <div id="edit_list_back"></div>
         </section>
     </main>
-    <script src="./src/assents/js/index.js"></script>
+    <script src="./src/assents/js/lista.js"></script>
 </body>
 
 </html>
