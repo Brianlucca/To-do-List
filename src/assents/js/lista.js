@@ -47,9 +47,7 @@ const criarTagLi = (tarefa) => {
   li.id = tarefa.id;
 
   span.classList.add("text-list");
-  span.innerHTML =
-    '<input type="checkbox" id="meuCheckbox" name="meuCheckbox" value="aceito">' +
-    tarefa.nome;
+  span.innerHTML = tarefa.nome;
 
   btnEditar.classList.add("btnAcao");
   btnEditar.innerHTML = '<i class="fa fa-pencil"></i>';
@@ -103,9 +101,7 @@ janelaSalvar.addEventListener("click", (e) => {
   if (novaTarefa) {
     let span = novaTarefa.querySelector(".text-list");
     if (span) {
-      span.innerHTML =
-        '<input type="checkbox" id="meuCheckbox" name="meuCheckbox" value="aceito">' +
-        tarefaEdicao.nome;
+      span.innerHTML = tarefaEdicao.nome;
     }
   }
   alternarJanelaEdicao();

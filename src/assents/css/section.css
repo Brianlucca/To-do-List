@@ -19,6 +19,7 @@ body {
 }
 
 .ListSubmit input {
+  font-family: "Karla", sans-serif;
   border-radius: 0.1rem;
   margin-left: 1.5rem;
   width: 16rem;
@@ -133,6 +134,7 @@ form {
     margin-bottom: 0.2rem;
 }
 .edit_form input {
+  font-family: "Karla", sans-serif;
     padding: 0.4rem;
     border-radius: 0.5rem;
     background-color: #483d8b;
@@ -140,11 +142,17 @@ form {
     border: none;
     outline: none;
 }
+#edit_Fechar {
+  left: 25.4rem;
+  transform: translateY(-1.2rem);
+  position: relative;
+}
 #btn_Edit {
+  font-family: "Karla", sans-serif;
   border: none;
   outline: none;
   border-radius: 20rem;
-  width: 2rem;
+  width: 4rem;
   height: 2rem;
   background-color: #483d8b;
   color: white;
